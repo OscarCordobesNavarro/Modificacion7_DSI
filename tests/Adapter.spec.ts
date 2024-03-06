@@ -87,7 +87,7 @@ describe('Adapter class tests', () => {
             let complex = new Complex(3, 4);
             let result = adapter.divide(complex);
             expect(result.getRealPart()).to.be.equal(0.06);
-            expect(result.getImaginaryPart()).to.be.equal(0.08);
+            expect(result.getImaginaryPart()).to.be.equal(-0.08);
         });
         it ('Adapter class divide method test', () => {
             let racional = new Rational(0, 2);
