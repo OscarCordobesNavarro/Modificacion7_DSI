@@ -86,6 +86,10 @@ export class Rational implements Arithmeticable<Rational> {
         return new Rational(this.numerator / mcd, this.denominator / mcd);
     }
 
+    /**
+     * Devuelve el valor del número racional.
+     * @returns El valor del número racional.
+     */
     getValue(): number {
         return this.numerator / this.denominator;
     }
